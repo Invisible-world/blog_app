@@ -8,9 +8,8 @@ module.exports = {
         ecmaVersion: "latest",
     },
     rules: {
-      "no-console": "off",
-      "quotes": [
-        "error",
-        "double"
-    ]
-}
+        "no-console": "off",
+        quotes: ["error", "double"],
+        tabWidth: 4,
+    },
+};

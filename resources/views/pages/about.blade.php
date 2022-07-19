@@ -9,7 +9,7 @@
         I choose Javascript as my first programming language and have developed front end applications using React JS components. 
         Meanwhile,I'm developing a blog application where i can zot down....
         :)<br/>
-        #Learning@NodeJS,@Laravel
+        #Learning@NodeJS@Laravel
     </p> <a href={{route('blogs')}} class="btn btn-lg btn-outline-dark mx-1">Read blogs</a> 
     </div>
     </div>

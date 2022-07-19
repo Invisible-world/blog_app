@@ -19,5 +19,7 @@ Route::get('/', function () {
     return view('pages.about');
 });
 
-Route::get('/blogs', [BlogController::class, 'index'])->name('blogs');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+Route::prefix('blogs')->group(function () {
+    Route::get('', [BlogController::class, 'index'])->name('blogs');
+});
